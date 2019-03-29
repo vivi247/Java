@@ -8,7 +8,7 @@ public class FactoryPattern {
         } else if(className.equalsIgnoreCase("Factory2")) {
             return new Factory2();
         } else {
-            return new DeafaultFactory();
+            return new DefaultFactory();
         }
     }
 }
